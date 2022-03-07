@@ -46,7 +46,7 @@ jobs:
           
       - name: funky build
         run: |
-          haxlib run lime build html5 
+          haxelib run lime build html5 
       - uses: actions/upload-artifact@v2
         with:
           name: HTML5 Build
